@@ -26,7 +26,6 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import express from "./tech/express.png";
 import graphql from "./tech/graphql.png";
-import jquery from "./tech/jquery.png";
 import mysql from "./tech/mysql.png";
 import postgresql from "./tech/postgresql.png";
 import nextjs from "./tech/nextjs.svg";
@@ -87,7 +86,6 @@ export {
   threejs,
   express,
   graphql,
-  jquery,
   mysql,
   postgresql,
   nextjs,
