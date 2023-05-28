@@ -22,7 +22,6 @@ import {
   threejs,
   express,
   graphql,
-  jquery,
   mysql,
   postgresql,
   nextjs,
@@ -197,10 +196,6 @@ const technologies = [
     icon: graphql,
   },
   {
-    name: "JQuery",
-    icon: jquery,
-  },
-  {
     name: "mysql",
     icon: mysql,
   },
@@ -215,24 +210,6 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Pending Full Stack Developer",
-    company_name: "Saferide Health Inc.",
-    icon: saferide,
-    iconBg: "#ffffff",
-    date: "Pending a YES! - Dec 2030?",
-    points: [
-      "Became an expert in TaaS (Transport as a Service) implementation and functionality.",
-      "Facilitated multi-language localization to the main Saferide health site.",
-      "Found ample business cases to migrate react projects with a huge need for SEO into Next.js.",
-      "Integrated AI assistants into the platform to reduce vendor support times by 35%",
-      "Created an IOT device to allow further means of engagement with the patient leading up to transport.",
-      "Found ways to further increase treatment adherence by positive reinforcement for successfully completed treatments.",
-      "Became an integral part of the team known for humoring his co-workers with his Donald Duck voice.",
-      "Won the 2024-2028 annual company picnic's potato salad competitions.",
-      "Fulfilled his need to do work that improves society as a whole.",
-    ],
-  },
   {
     title: "Full Stack Developer",
     company_name: "COMPS Inc.",
