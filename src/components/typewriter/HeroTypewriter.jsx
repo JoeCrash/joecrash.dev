@@ -20,7 +20,7 @@ const HeroTypewriter = () =>{
                   .pauseFor(1200)
                   .deleteAll(15)
                   .typeString(
-                    "A <strong>Full Stack <span style='color: #27ae60;'>LAMP</span> & <span style='color: #27ae60;'>MERN</span> Developer</strong> who lives to build performant, scalable apps."
+                    "A <strong>Full Stack <span style='color: #27ae60;'>LAMP</span> & <span style='color: #27ae60;'>MERN</span> Developer</strong> who loves building performant, scalable apps."
                   )
                   .pauseFor(1000)
                   .start();
