@@ -26,13 +26,7 @@ import {
   postgresql,
   nextjs,
   php,
-  python,
-  sass,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  saferide,
+  kpiwatch,
   comps,
   henrystreetsettlement,
   nbnetsystems,
@@ -40,9 +34,6 @@ import {
   kig,
   cjlfinejewelry,
   lqdent,
-  carrent,
-  jobit,
-  tripguide,
   compsusa,
   buysellmemo,
   stfcpro,
@@ -188,7 +179,7 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
@@ -200,7 +191,7 @@ const technologies = [
     icon: graphql,
   },
   {
-    name: "mysql",
+    name: "MySQL",
     icon: mysql,
   },
   {
@@ -231,20 +222,6 @@ const experiences = [
       "Developed a custom street maps application to show property records on a google style map. Generated mbtiles, MySQL to geojson parser.",
       "Reverse engineered their Desktop software serial key generator. Ported code to Javascript and PHP.",
       "Stopped subscription account sharing by implementing session checks / auto logout.",
-    ],
-  },
-  {
-    title: "Robotics Specialist",
-    company_name: "Henry Street Settlement Inc",
-    icon: henrystreetsettlement,
-    iconBg: "#ffffff",
-    date: "(Part Time) Oct 2020 - May 2022",
-    points: [
-      "Developed and taught lesson plans to teach teens how to create their own robotic cars using Arduino, from Design to Manufacture.",
-      "Taught the kids about structural engineering by having them create a 12 foot functional bridge using popsicle sticks and 3d printed parts they prototyped.",
-      "Manufacturing with everyday objects, old controllers, misc upcycled tech.",
-      "3D Print preparation, operation and troubleshooting",
-      "3D Modeling with Tinkercad.com & Fusion 360",
     ],
   },
   {
@@ -331,21 +308,47 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Compsusa",
+    name: "KPI Watch",
     description:
-      "Web-based platform that allows users to search detailed property info and generate custom real estate reports.",
+      "KPI charts dashboard with regression line and future revenue predictions.",
+    tags: [
+      {
+        name: "MERN Stack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: kpiwatch,
+    source_code_link: "https://github.com/JoeCrash/kpiwatch-client",
+    live_link: "https://kpiwatch.vercel.app/",
+  },
+  {
+    name: "Comps USA",
+    description:
+      "SaaS real estate platform that allows users to search detailed property info, view maps and generate customized reports.",
     tags: [
       {
         name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "JQuery",
-        color: "green-text-gradient",
-      },
-      {
         name: "MySQL",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
       },
     ],
     image: compsusa,
@@ -377,7 +380,7 @@ const projects = [
   {
     name: "Stfcpro Map",
     description:
-      "An indispensable tool used by thousands of Star Trek Fleet Command players all over the world. I gave this out for free and have found 9 variations online so far. v2 runs on WebGL for faster mapping",
+      "An indispensable tool used by thousands of Star Trek Fleet Command players all over the world. I made this open source and have found 9 variations online so far.",
     tags: [
       {
         name: "Async js",
@@ -399,7 +402,7 @@ const projects = [
   {
     name: "Buysellmemo",
     description:
-      "Innovative web app allowing KIG Gems to broker gemstone transactions between vendors and clientele.",
+      "SaaS application for handling gemstone transactions between KIG and it's partners in NYC's Diamond District.",
     tags: [
       {
         name: "PHP",
@@ -443,8 +446,7 @@ const projects = [
 
   {
     name: "Robofriends",
-    description:
-      "Simple app built to pick up changes in React 18",
+    description: "Simple app built to pick up changes in React 18",
     tags: [
       {
         name: "react",
@@ -461,8 +463,7 @@ const projects = [
   },
   {
     name: "Pastrykicks",
-    description:
-      "Ecommerce site for America's Number 1 Dance Sneaker",
+    description: "Ecommerce site for America's Number 1 Dance Sneaker",
     tags: [
       {
         name: "PHP",

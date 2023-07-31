@@ -34,11 +34,6 @@ import python from "./tech/python.png";
 import sass from "./tech/sass.png";
 
 /** company stuff **/
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import saferide from "./company/saferide.png";
 import comps from "./company/comps.png";
 import henrystreetsettlement from "./company/henrystreetsettlement.png";
 import nbnetsystems from "./company/nbnetsystems.png";
@@ -48,9 +43,7 @@ import cjlfinejewelry from "./company/cjlfinejewelry.png";
 import lqdent from "./company/lqdent.png";
 
 /** project stuff **/
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import kpiwatch from "./kpiwatch.png";
 import compsusa from "./compsusa.png";
 import buysellmemo from "./buysellmemo.png";
 import stfcpro from "./stfcpro.png";
@@ -92,11 +85,6 @@ export {
   php,
   python,
   sass,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  saferide,
   comps,
   henrystreetsettlement,
   nbnetsystems,
@@ -104,14 +92,12 @@ export {
   kig,
   cjlfinejewelry,
   lqdent,
-  carrent,
-  jobit,
-  tripguide,
+  kpiwatch,
   compsusa,
   buysellmemo,
   stfcpro,
   facerecognition,
   nasaproject,
   robofriends,
-  pastrykicks
+  pastrykicks,
 };

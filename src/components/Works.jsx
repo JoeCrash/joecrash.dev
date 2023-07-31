@@ -104,11 +104,11 @@ const Works = ({
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           The following projects showcase my experience in building enterprise
-          size applications, as well as my ability to learn and utilize newer
-          trends. Each project is briefly described with links to code
-          repositories or live examples where permissible. They reflect my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          applications, as well as my ability to learn and utilize newer trends.
+          Each project is briefly described with links to code repositories or
+          live examples where permissible. They reflect my ability to solve
+          complex problems, work with different technologies, and manage
+          projects effectively.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
